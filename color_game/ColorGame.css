@@ -1,0 +1,15 @@
+body{
+	background-color: #232323;
+}
+
+.square{
+	width: 30%; 
+	/*set square width to be 30% of the screen*/
+	background: purple;
+	padding-bottom: 30%;
+	/*using padding-bottom to set square length to be 30% of the screen*/
+	float: left;
+	/*set square float attribute to make them array next to each other*/
+	margin:1.66%;
+	/*set margin*/
+}
