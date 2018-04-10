@@ -24,6 +24,13 @@ body{
 #message{
 	display: inline-block;
 	width: 20%;
+	text-transform: uppercase;
+	/*height: 100%;*/
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+
 }
 
 #container{
@@ -68,6 +75,7 @@ button{
 	font-size: inherit;
 	transition: 0.3s;
 	outline: none;
+	padding: 0;
 }
 
 button:hover{
