@@ -30,6 +30,25 @@ li{
 li:nth-child(2n){
 	background-color: #f7f7f7;
 }
+.fa-beer{
+	float: right;
+}
+li span{
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+/*鼠标悬浮在li上时选择span*/
+li:hover span{
+	width: 40px;
+	opacity: 1;
+}
 
 input{
 	font-size: 18px;

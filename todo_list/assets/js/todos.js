@@ -59,6 +59,10 @@ $("input[type='text']").keypress(function(event){
 		var todoText = $(this).val();
 		//清空输入框中的值
 		$(this).val("");
-		$("ul").append("<li><span>x </span>" + todoText + "</li>");
+		$("ul").append("<li><span><i class='fas fa-trash'></i> </span>" + todoText + "</li>");
 	}
 });
+
+$(".fa-beer").click(function(){
+	$("input[type='text']").fadeToggle();
+})
